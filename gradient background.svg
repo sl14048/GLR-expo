@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 419.53 419.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="419.53" height="419.53"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-413.28" y1="411.3" x2="-412.28" y2="411.3" gradientTransform="translate(-251620.89 253036.85) rotate(90) scale(612.28 -612.28)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b4687"/>
+      <stop offset="0" stop-color="#5b4687"/>
+      <stop offset="1" stop-color="#4d95c4"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <path class="cls-1" d="M245.53,0l39.93,172.93c4.93,21.35,1.82,41.38-9.3,60.13-11.12,18.79-27.15,30.56-48.1,35.39-20.35,4.7-39.63,1.08-57.85-10.93-18.22-11.98-29.78-28.63-34.7-49.97L87.6,0H0v262.08c31.26,49.99,85.48,71.03,162.68,63.14-58.06,21.32-94.95,52.75-110.66,94.32h135.66c.66-12.77,4.47-25.03,11.44-36.81,11.11-18.76,26.85-30.49,47.2-35.18,20.95-4.84,40.52-1.26,58.75,10.72,18.22,12.01,29.8,28.68,34.72,50l2.6,11.27h77.14v-114.7c-28.57-13.56-64.21-18.3-106.91-14.23,54.28-19.98,89.92-48.95,106.91-86.9V73.73L402.51,0h-156.97Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-413.49" y1="410.47" x2="-412.49" y2="410.47" gradientTransform="translate(318317.19 -319745.53) rotate(-90) scale(774.98 -774.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d95c4"/>
+      <stop offset="0" stop-color="#4d95c4"/>
+      <stop offset=".59" stop-color="#5b4687"/>
+      <stop offset="1" stop-color="#4d95c4"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-5">
+    <rect class="cls-3" width="419.53" height="419.53"/>
+  </g>
+  <g class="cls-4">
+    <rect class="cls-2" x="-59.09" y="-59.09" width="537.71" height="537.71" transform="translate(-59.09 84.39) rotate(-20)"/>
+  </g>
+</svg>
