@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght=700&display=swap');
 
 @font-face {
-    font-family: azora;
+    font-family: 'azora';
     src: url('azora.free-demo.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
-    --x-top: -24px;
-    --x-left: -130px;
-    --x-width: 440px;
+    --x-top: -10.8px;
+    --x-left: -21.6px;
+    --x-width: 594px;
 }
 
 body {
@@ -24,8 +24,8 @@ body {
 }
 
 .banner-container {
-    width: 1000px;
-    height: 200px;
+    width: 5760px;
+    height: 1080px;
     position: relative;
     overflow: hidden;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
@@ -46,11 +46,12 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 334px;
+    width: 1920px;
     height: 100%;
     z-index: 2;
     pointer-events: none;
 }
+
 .logo-group-unified {
     position: absolute;
     top: 0;
@@ -60,18 +61,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    gap: 97.2px;
 }
 
 #glrLogo {
     position: relative;
-    height: 68px;
+    height: 367.2px;
     width: auto;
 }
 
 .epo-wrap {
     position: relative;
-    height: 125px;
+    height: 675px;
 }
 
 #logoEpo {
@@ -87,9 +88,9 @@ body {
 
 #letterX {
     position: absolute;
-    top: -2px;
-    left: -4px;
-    width: 110px;
+    top: var(--x-top);
+    left: var(--x-left);
+    width: var(--x-width);
     height: auto;
     z-index: 3;
     transform-origin: 50% 50%;
@@ -108,15 +109,16 @@ body {
 }
 
 .outline-text {
-    color: #ffffff;                  /* Change from transparent to white */
+    color: #ffffff;
     font-family: 'azora', sans-serif;
-    font-size: 24px;
-    font-weight: normal;             /* Change from 700 to normal */
+    font-size: 129.6px;
+    font-weight: normal;
     text-transform: uppercase;
     line-height: 1.15;
-    letter-spacing: 0.5px;
+    letter-spacing: 2.7px;
     text-align: center;
 }
+
 .hidden-asset {
     opacity: 0;
 }
